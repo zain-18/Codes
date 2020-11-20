@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Srbija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="Srbija"
+        android:textColor="#010101"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="Srbija"/>
+
+    <Button
+        android:id="@+id/Francuska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="Francuska"
+        android:textColor="#010101"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="Francuska"/>
+
+    <Button
+        android:id="@+id/Turska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="Turska"
+        android:textColor="#010101"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="Turska"/>
+
+    <Button
+        android:id="@+id/Indija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="Indija"
+        android:textColor="#010101"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="Indija"/>
+
+    <Button
+        android:id="@+id/Amerika"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="Amerika"
+        android:textColor="#010101"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="Amerika"/>
+
+</LinearLayout>
